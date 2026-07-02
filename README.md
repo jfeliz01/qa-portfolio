@@ -19,9 +19,12 @@ test-cases/
 └── checkout.md                 # 6 cases — full flow, field validation, order summary
 
 bug-reports/
-├── BUG-001-broken-product-images.md    # High — wrong images for problem_user
-├── BUG-002-sort-filter-no-effect.md    # Medium — sort has no effect for problem_user
-└── BUG-003-no-loading-indicator.md     # Low — no feedback during slow login
+├── BUG-001-multiple-payment-methods-default.md
+├── BUG-002-email-replies-not-syncing.md
+├── BUG-003-staff-status-toggle-persistence.md
+├── BUG-004-duplicate-phone-validation.md
+├── BUG-005-compose-toolbar-hidden.md
+└── BUG-006-business-name-invalid-input.md
 
 checklists/
 ├── smoke.md                    # 8 checks — core flows before regression run
@@ -47,6 +50,23 @@ Password for all accounts: `secret_sauce`
 
 ---
 
+## Bug Reports
+
+6 sanitized real-world bug reports covering a range of QA scenarios commonly found in SaaS applications:
+
+| ID | Title | Severity | Priority |
+|---|---|---|---|
+| BUG-001 | Multiple payment methods displayed as default after refresh | High | High |
+| BUG-002 | Inbound email replies not syncing back to application inbox | High | High |
+| BUG-003 | Staff status toggle does not persist correctly across environments | High | High |
+| BUG-004 | Duplicate phone number validation fails during staff creation | Medium | High |
+| BUG-005 | Compose toolbar options become hidden at specific screen width | Medium | High |
+| BUG-006 | Business name field accepts whitespace and HTML-like input | Medium | Medium |
+
+These cover: **data persistence**, **third-party integrations**, **access control**, **responsive UI**, **create vs edit validation gaps**, and **input sanitization**.
+
+---
+
 ## Test case format
 
 Each test case includes:
@@ -59,25 +79,13 @@ Each test case includes:
 
 ---
 
-## Bug report format
-
-Each bug report includes:
-- Severity and priority (separate fields — a Low severity bug can be High priority)
-- Environment details (browser, OS, account)
-- Steps to reproduce (minimal, verified)
-- Expected vs actual result
-- Impact analysis
-- Notes on root cause hypothesis
-
----
-
 ## Summary
 
 | Artifact | Count |
 |---|---|
 | Test plans | 1 |
 | Test cases | 21 |
-| Bug reports | 3 |
+| Bug reports | 6 |
 | Smoke checks | 8 |
 | Regression checks | 32 |
 
