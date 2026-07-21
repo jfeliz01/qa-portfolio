@@ -92,11 +92,11 @@ Swag Labs is a demo e-commerce web application built for QA practice. This plan 
 
 | Module | Total Cases | Functional | Negative | Boundary |
 |---|---|---|---|---|
-| Login | 6 | 3 | 2 | 1 |
-| Inventory | 5 | 3 | 1 | 1 |
+| Login | 6 | 2 | 4 | 0 |
+| Inventory | 5 | 5 | 0 | 0 |
 | Cart | 4 | 4 | 0 | 0 |
-| Checkout | 6 | 2 | 3 | 1 |
-| **Total** | **21** | **12** | **6** | **3** |
+| Checkout | 6 | 3 | 3 | 0 |
+| **Total** | **21** | **14** | **7** | **0** |
 
 ---
 
