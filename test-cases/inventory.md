@@ -81,7 +81,7 @@ Products reorder alphabetically in descending order. "Test.allTheThings() T-Shir
 | Field | Details |
 |---|---|
 | **Priority** | Medium |
-| **Type** | Boundary |
+| **Type** | Functional |
 | **Preconditions** | Logged in as `standard_user`, "Sauce Labs Backpack" already added to cart |
 
 **Steps:**

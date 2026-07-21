@@ -52,7 +52,7 @@ Password for all accounts: `secret_sauce`
 
 ## Bug Reports
 
-6 sanitized real-world bug reports covering a range of QA scenarios commonly found in SaaS applications:
+6 sanitized case studies based on real defects found during past QA work, rewritten with fictional app/module names and details changed for confidentiality. They document the QA process (reproduction, impact analysis) rather than track live status — treat them as writing samples, not an open issue tracker. They cover a range of QA scenarios commonly found in SaaS applications:
 
 | ID | Title | Severity | Priority |
 |---|---|---|---|

@@ -107,7 +107,7 @@ User is redirected to `/cart.html`. All previously added items are still in the 
 | Field | Details |
 |---|---|
 | **Priority** | High |
-| **Type** | Boundary |
+| **Type** | Functional |
 | **Preconditions** | Logged in as `standard_user`, "Sauce Labs Backpack" ($29.99) in cart, personal info filled |
 
 **Steps:**

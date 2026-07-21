@@ -69,11 +69,11 @@
 
 ## Known Issues (do not flag as new failures)
 
-| Bug ID | Description |
+| Known Issue ID | Description |
 |---|---|
-| BUG-001 | `problem_user`: all product images show incorrect dog image |
-| BUG-002 | `problem_user`: sort filter has no effect on inventory |
-| BUG-003 | `performance_glitch_user`: no loading indicator during login |
+| KI-001 | `problem_user`: all product images show incorrect dog image |
+| KI-002 | `problem_user`: sort filter has no effect on inventory |
+| KI-003 | `performance_glitch_user`: no loading indicator during login |
 
 ---
 

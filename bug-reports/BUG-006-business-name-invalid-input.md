@@ -5,7 +5,6 @@
 | **ID** | BUG-006 |
 | **Severity** | Medium |
 | **Priority** | Medium |
-| **Status** | Open |
 | **Reported by** | Joel Feliz |
 | **Date** | 2026-07-01 |
 | **Module** | Settings > Account Profile > Business Information |

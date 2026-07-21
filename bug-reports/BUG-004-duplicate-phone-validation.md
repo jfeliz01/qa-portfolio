@@ -5,7 +5,6 @@
 | **ID** | BUG-004 |
 | **Severity** | Medium |
 | **Priority** | High |
-| **Status** | Open |
 | **Reported by** | Joel Feliz |
 | **Date** | 2026-07-01 |
 | **Module** | Settings > Staff > Create |

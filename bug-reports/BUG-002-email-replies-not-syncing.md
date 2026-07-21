@@ -5,7 +5,6 @@
 | **ID** | BUG-002 |
 | **Severity** | High |
 | **Priority** | High |
-| **Status** | Open |
 | **Reported by** | Joel Feliz |
 | **Date** | 2026-07-01 |
 | **Module** | Inbox > Email Channel |
